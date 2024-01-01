@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      perspective: {
+        '2000': '2000px',
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
